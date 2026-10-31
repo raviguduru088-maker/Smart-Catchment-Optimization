@@ -1,0 +1,61 @@
+catchment_id,latitude_synthetic,longitude_synthetic,land_use,area_ha,slope_percent,impervious_surface_percent,rainfall_intensity_mm_hr,soil_type,drainage_capacity_class,storage_capacity_m3,runoff_coefficient_assumed,estimated_runoff_m3_hr,flood_risk_score_synthetic,flood_risk_class_synthetic,recommended_action_synthetic
+CAT001,17.403125,78.414752,Built-up,4.33,5.94,85.3,24.7,Clay,High,33.8,0.81,868.9,41,Low,Routine monitoring / preserve infiltration
+CAT002,17.320845,78.531873,Park/Green,6.39,1.41,6.9,59.3,Clay,High,71.6,0.12,438.6,25,Low,Routine monitoring / preserve infiltration
+CAT003,17.435109,78.465245,Built-up,1.62,5.36,88.2,45.8,Sandy Loam,Low,58.7,0.7,521.1,60,Medium,Monitor rainfall and storage
+CAT004,17.342248,78.520369,Built-up,7.08,7.92,84.2,25.6,Clay,Medium,63.2,0.67,1208.1,47,Medium,Monitor rainfall and storage
+CAT005,17.3849,78.543702,Road,2.91,1.29,90.8,37.6,Loam,High,76.6,0.92,1009.1,33,Low,Routine monitoring / preserve infiltration
+CAT006,17.397533,78.468715,Road,8.64,2.16,98.8,72.6,Sandy Loam,Low,47.6,0.75,4708.6,70,High,Inspect drains / prioritize detention
+CAT007,17.419055,78.487152,Built-up,11.41,6.77,80.2,88.0,Clay,High,52.0,0.65,6575.4,70,High,Inspect drains / prioritize detention
+CAT008,17.32753,78.542701,Waterbody,1.91,3.99,4.8,54.5,Sandy Loam,High,131.5,0.02,20.9,20,Low,Routine monitoring / preserve infiltration
+CAT009,17.360523,78.560272,Road,8.11,4.24,84.5,24.8,Clay,High,96.5,0.93,1872.7,30,Low,Routine monitoring / preserve infiltration
+CAT010,17.406967,78.443136,Built-up,16.87,4.65,79.2,43.8,Silty,Medium,72.7,0.83,6149.7,47,Medium,Monitor rainfall and storage
+CAT011,17.364109,78.540251,Built-up,3.75,3.7,77.7,82.5,Clay,Low,99.6,0.79,2429.0,66,High,Inspect drains / prioritize detention
+CAT012,17.372834,78.483204,Open Soil,16.28,1.48,33.6,67.7,Silty,Low,32.5,0.22,2405.9,52,Medium,Monitor rainfall and storage
+CAT013,17.326519,78.482518,Open Soil,9.75,0.64,12.0,41.3,Loam,High,91.2,0.36,1436.9,13,Low,Routine monitoring / preserve infiltration
+CAT014,17.346554,78.518429,Built-up,7.37,5.44,74.0,94.9,Clay,Low,83.0,0.78,5430.7,77,High,Inspect drains / prioritize detention
+CAT015,17.357048,78.476728,Road,5.72,7.87,90.6,14.3,Loam,Medium,21.7,0.86,704.0,48,Medium,Monitor rainfall and storage
+CAT016,17.346468,78.506136,Built-up,9.0,7.26,90.4,74.4,Sandy Loam,Low,112.5,0.79,5275.9,72,High,Inspect drains / prioritize detention
+CAT017,17.437511,78.492839,Open Soil,10.65,1.36,33.9,85.9,Loam,High,41.2,0.32,2945.0,47,Medium,Monitor rainfall and storage
+CAT018,17.340092,78.550482,Open Soil,17.58,6.52,20.0,77.2,Loam,Medium,28.1,0.34,4630.8,58,Medium,Monitor rainfall and storage
+CAT019,17.439399,78.463449,Open Soil,15.74,1.94,12.1,36.6,Silty,High,147.3,0.49,2829.3,7,Low,Routine monitoring / preserve infiltration
+CAT020,17.445129,78.45082,Built-up,8.05,5.88,74.4,27.9,Silty,Low,80.4,0.85,1912.7,47,Medium,Monitor rainfall and storage
+CAT021,17.376069,78.553331,Waterbody,11.37,5.37,3.3,67.7,Loam,Low,66.0,0.03,231.7,49,Medium,Monitor rainfall and storage
+CAT022,17.391232,78.411061,Built-up,7.97,4.72,84.6,86.1,Loam,High,17.3,0.78,5344.7,70,High,Inspect drains / prioritize detention
+CAT023,17.407463,78.444696,Built-up,0.83,2.11,79.3,22.5,Silty,Medium,62.9,0.69,128.3,32,Low,Routine monitoring / preserve infiltration
+CAT024,17.421195,78.443826,Open Soil,12.65,3.82,14.0,52.8,Sandy Loam,Medium,93.8,0.36,2433.6,31,Low,Routine monitoring / preserve infiltration
+CAT025,17.416675,78.482201,Built-up,4.75,5.17,88.0,30.7,Sandy Loam,Medium,51.4,0.79,1144.8,46,Medium,Monitor rainfall and storage
+CAT026,17.32835,78.47214,Road,7.72,1.81,98.1,73.9,Silty,Medium,5.9,0.9,5138.5,67,High,Inspect drains / prioritize detention
+CAT027,17.417177,78.49292,Road,4.28,1.91,80.6,19.9,Silty,Low,147.2,0.93,793.3,27,Low,Routine monitoring / preserve infiltration
+CAT028,17.37572,78.541028,Built-up,4.98,2.75,78.6,42.9,Clay,Medium,7.8,0.78,1676.8,50,Medium,Monitor rainfall and storage
+CAT029,17.404728,78.524135,Waterbody,3.91,0.36,2.2,68.0,Sandy Loam,Low,92.9,0.03,82.7,35,Low,Routine monitoring / preserve infiltration
+CAT030,17.395229,78.550333,Road,16.38,3.13,84.0,67.7,Sandy Loam,High,92.1,0.95,10499.0,48,Medium,Monitor rainfall and storage
+CAT031,17.368174,78.486894,Built-up,15.35,6.61,68.2,44.2,Sandy Loam,High,122.2,0.78,5322.9,37,Low,Routine monitoring / preserve infiltration
+CAT032,17.430723,78.53561,Built-up,15.92,2.1,78.9,21.4,Loam,Medium,120.7,0.74,2504.3,24,Low,Routine monitoring / preserve infiltration
+CAT033,17.443248,78.423842,Park/Green,9.0,6.11,14.8,24.9,Loam,Medium,101.3,0.17,378.2,22,Low,Routine monitoring / preserve infiltration
+CAT034,17.365735,78.479062,Built-up,4.46,5.83,74.5,71.5,Sandy Loam,High,90.5,0.84,2678.8,54,Medium,Monitor rainfall and storage
+CAT035,17.366915,78.45634,Park/Green,2.63,0.56,23.9,14.2,Clay,High,46.2,0.29,109.5,8,Low,Routine monitoring / preserve infiltration
+CAT036,17.334831,78.420802,Road,10.56,5.55,96.2,55.2,Silty,High,91.4,0.91,5276.2,51,Medium,Monitor rainfall and storage
+CAT037,17.396508,78.475324,Road,1.46,7.69,95.3,26.6,Clay,Low,5.4,0.87,337.4,64,Medium,Monitor rainfall and storage
+CAT038,17.411388,78.479105,Park/Green,16.66,6.35,23.7,63.3,Sandy Loam,Low,15.4,0.25,2634.2,60,Medium,Monitor rainfall and storage
+CAT039,17.336166,78.514302,Park/Green,16.99,4.1,5.8,27.5,Clay,Low,144.5,0.29,1355.7,18,Low,Routine monitoring / preserve infiltration
+CAT040,17.355036,78.417035,Park/Green,8.68,5.28,16.7,13.2,Sandy Loam,Medium,53.3,0.17,190.2,21,Low,Routine monitoring / preserve infiltration
+CAT041,17.442875,78.533035,Road,8.4,2.65,99.4,64.2,Silty,Medium,12.9,0.87,4716.1,64,Medium,Monitor rainfall and storage
+CAT042,17.354717,78.430652,Built-up,15.9,3.98,65.9,6.2,Silty,Low,37.6,0.86,848.1,35,Low,Routine monitoring / preserve infiltration
+CAT043,17.441245,78.454779,Park/Green,7.71,3.96,7.9,72.2,Loam,Low,45.1,0.29,1596.8,52,Medium,Monitor rainfall and storage
+CAT044,17.356769,78.455783,Road,17.98,4.02,90.8,46.0,Sandy Loam,Low,147.2,0.83,6836.6,47,Medium,Monitor rainfall and storage
+CAT045,17.381487,78.548015,Built-up,17.8,6.38,84.6,34.9,Clay,Medium,19.5,0.88,5451.9,54,Medium,Monitor rainfall and storage
+CAT046,17.329728,78.528229,Built-up,11.37,3.3,67.4,61.4,Silty,High,10.2,0.67,4657.2,52,Medium,Monitor rainfall and storage
+CAT047,17.376416,78.425766,Road,15.76,3.66,98.1,38.7,Loam,Low,82.0,0.91,5541.1,52,Medium,Monitor rainfall and storage
+CAT048,17.400562,78.447124,Open Soil,2.92,3.8,34.1,66.0,Loam,Low,69.1,0.33,630.8,52,Medium,Monitor rainfall and storage
+CAT049,17.42989,78.440883,Built-up,8.9,2.05,82.2,64.2,Sandy Loam,Low,87.1,0.82,4693.6,57,Medium,Monitor rainfall and storage
+CAT050,17.43754,78.453929,Open Soil,11.08,2.95,31.6,80.5,Clay,High,98.7,0.42,3743.5,41,Low,Routine monitoring / preserve infiltration
+CAT051,17.358364,78.523122,Built-up,2.73,4.41,94.1,79.2,Silty,Medium,113.3,0.73,1588.5,62,Medium,Monitor rainfall and storage
+CAT052,17.431818,78.519633,Waterbody,17.42,6.48,4.5,65.6,Sandy Loam,High,60.2,0.06,708.0,40,Low,Routine monitoring / preserve infiltration
+CAT053,17.442612,78.460201,Road,11.8,5.16,94.0,8.3,Silty,Low,19.1,0.78,761.1,48,Medium,Monitor rainfall and storage
+CAT054,17.442977,78.473869,Park/Green,3.12,3.44,13.2,38.3,Silty,Medium,142.8,0.24,283.4,17,Low,Routine monitoring / preserve infiltration
+CAT055,17.366628,78.470721,Built-up,2.55,6.81,78.6,75.8,Loam,Low,119.1,0.7,1355.5,68,High,Inspect drains / prioritize detention
+CAT056,17.35029,78.527155,Open Soil,10.89,2.36,34.0,83.0,Loam,Low,56.9,0.28,2527.3,58,Medium,Monitor rainfall and storage
+CAT057,17.374725,78.428047,Built-up,8.29,3.02,82.8,86.8,Sandy Loam,Medium,98.3,0.66,4733.3,61,Medium,Monitor rainfall and storage
+CAT058,17.412612,78.477534,Open Soil,6.07,1.36,31.4,58.8,Sandy Loam,Medium,78.3,0.4,1414.9,34,Low,Routine monitoring / preserve infiltration
+CAT059,17.391674,78.540824,Built-up,16.03,3.43,89.8,27.9,Loam,High,138.8,0.67,2982.1,26,Low,Routine monitoring / preserve infiltration
+CAT060,17.42553,78.494456,Road,10.28,2.77,87.1,69.9,Sandy Loam,High,50.3,0.85,6118.5,55,Medium,Monitor rainfall and storage
