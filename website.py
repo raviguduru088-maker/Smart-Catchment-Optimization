@@ -7,9 +7,9 @@ import joblib
 import requests
 
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT/"data"/"processed"/"catchments_clean.csv"
-RESULTS = ROOT/"outputs"/"results"/"catchment_analysis_results.csv"
-MODEL = ROOT/"outputs"/"models"/"flood_risk_model.pkl"
+DATA = ROOT/"catchments_clean.csv"
+RESULTS = ROOT/"catchment_analysis_results.csv"
+MODEL = ROOT/"flood_risk_model.pkl"
 
 st.set_page_config(page_title="Smart Catchment Optimization", page_icon="🌧️", layout="wide")
 st.title("🌧️ Smart Catchment Optimization")
@@ -17,7 +17,7 @@ st.caption("Geospatial decision-support demonstration for rainwater management")
 st.info("Project demonstration using a 60-row synthetic sample dataset. The live weather panel uses Open-Meteo model data for Mylavaram town; it is not a rain gauge measurement for every catchment. Sample catchment coordinates, labels, Curve Numbers and MCDA weights are illustrative and require local validation.")
 
 if not DATA.exists():
-    st.error("Dataset missing: data/processed/catchments_clean.csv")
+    st.error("Dataset missing: catchments_clean.csv")
     st.stop()
 raw = pd.read_csv(DATA)
 df = pd.read_csv(RESULTS) if RESULTS.exists() else raw.copy()
@@ -127,7 +127,7 @@ elif page == "Rainfall Analysis":
 elif page == "SCS-CN Runoff":
     st.subheader("SCS Curve Number runoff — demonstration")
     if "scs_cn_runoff_depth_mm_demo" not in df:
-        st.warning("Run src/run_analysis.py first.")
+        st.warning("Analysis results file not found. Upload catchment_analysis_results.csv to the repository root.")
     else:
         st.metric("Total demo runoff volume", f'{df.scs_cn_runoff_volume_m3_demo.sum():,.1f} m³')
         st.dataframe(df[["catchment_id","demo_hsg_assumption","demo_curve_number",
@@ -138,7 +138,7 @@ elif page == "SCS-CN Runoff":
 elif page == "MCDA Suitability":
     st.subheader("Multi-Criteria Decision Analysis")
     if "mcda_priority_score_demo" not in df:
-        st.warning("Run src/run_analysis.py first.")
+        st.warning("Analysis results file not found. Upload catchment_analysis_results.csv to the repository root.")
     else:
         st.caption("Illustrative weights: rainfall 35%, slope 20%, imperviousness 30%, drainage 15%.")
         st.plotly_chart(px.bar(df.sort_values("mcda_priority_score_demo", ascending=False),
@@ -162,7 +162,7 @@ elif page == "Catchment Map":
 elif page == "ML Prediction":
     st.subheader("Random Forest prediction")
     if not MODEL.exists():
-        st.warning("Model not found. Run: python src/train_model.py")
+        st.warning("Model not found. Upload flood_risk_model.pkl to the repository root.")
     else:
         model = joblib.load(MODEL)
         with st.form("prediction"):
